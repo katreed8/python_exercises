@@ -90,5 +90,36 @@ l = [1, 2, 3, 4, 3, 2, 1]
 for item in l: # so for each item in the list l, run the code below
     print( item ) # item is a box that contains whatever thing in the list you are currently looking at
 
+# More list stuff
+
+l[0] # gets the first item in the list, so 1
+l[1] # gets the second item, so 2
+
+len([1, 2]) # gets the length of the list, so this would evaluate to 2
+
+len([]) # this would be 0
+
+len([1])  # and this would be, 1!
+
+# Functions
+#
+# These are little elves that do your bidding.  You give them some stuff, and they make a giraffe.
+
+def tiny_elf(): # look ma, I'm  making an elf!
+    return "giraffe" # give the giraffe to your master
+
+print( tiny_elf() )  # tiny_elf() will become the string "giraffe"
+
+def tinier_elf(x): # this one needs something from you.  Needy bitch.
+    x = x + 5 # I'm guessing that you can work out what this does
+    return x # give the number back to your master
+
+print( tinier_elf(11) ) # will print out 16
+
+def greedy_elf(a_number, another_number): # this one needs two things.  when will it end!
+    return a_number + another_number # add them together, and give your hard work back to your master
+
+print( greedy_elf(1, 1) ) # print out 2.  notice how different things are separated with commas
+
 
 
